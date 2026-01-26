@@ -66,7 +66,7 @@ public class BookDao {
             pstmt.setString(1, book.getTitle());
             pstmt.setString(2, book.getAuthor());
             pstmt.setString(3, book.getDescription());
-            pstmt.setString(4, book.getRegisteredBy());
+            pstmt.setString(4, book.getUserName());
             
             int result = pstmt.executeUpdate();
             return result > 0;
