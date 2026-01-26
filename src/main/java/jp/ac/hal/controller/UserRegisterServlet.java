@@ -29,15 +29,13 @@ public class UserRegisterServlet extends HttpServlet {
 
             UserDao dao = new UserDao();
             if (dao.register(user)) {
-                request.setAttribute("message", "登録が完了しました。ログインしてください。");
+                request.setAttribute("登録が完了");
                 request.getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
             } else {
-                request.setAttribute("error", "登録に失敗しました。IDが既に使われている可能性があります。");
-                request.getRequestDispatcher("/WEB-INF/userRegister.jsp").forward(request, response);
+                request.setAttribute("IDが既に使われています。");
             }
         } else {
             request.setAttribute("error", "パスワードは8桁以上で、アルファベット、数字、記号をすべて含めてください。");
-            request.getRequestDispatcher("/WEB-INF/userRegister.jsp").forward(request, response);
         }
     }
 

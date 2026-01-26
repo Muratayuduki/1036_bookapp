@@ -28,14 +28,14 @@
             <th>タイトル</th>
             <th>著者</th>
             <th>紹介文</th>
-            <th>登録者ID</th>
+            <th>名前</th>
         </tr>
         <c:forEach var="book" items="${bookList}">
             <tr>
                 <td>${book.title}</td>
                 <td>${book.author}</td>
                 <td>${book.description}</td>
-                <td>${book.registeredBy}</td>
+                <td>${book.userName}</td>
             </tr>
         </c:forEach>
     </table>
