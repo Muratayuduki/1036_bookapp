@@ -12,7 +12,6 @@
     <h1>おすすめ本一覧</h1>
     <div class="nav">
         こんにちは、${user.userName} さん | 
-        <a href="UserListServlet">ユーザー一覧</a> | 
         <a href="BookRegisterServlet">新しい本を登録する</a> | 
         <a href="LoginServlet">ログアウト</a>
     </div>
