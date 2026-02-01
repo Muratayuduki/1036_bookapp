@@ -6,7 +6,7 @@
 <title>ログイン - 9999_BookApp</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="login-page">
 <div class="container">
     <h1>ログイン</h1>
     <p class="error">${error}</p>

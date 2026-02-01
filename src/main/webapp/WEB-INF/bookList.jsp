@@ -7,7 +7,7 @@
 <title>おすすめ本一覧</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="book-list-page">
 <div class="container">
     <h1>おすすめ本一覧</h1>
     <div class="nav">

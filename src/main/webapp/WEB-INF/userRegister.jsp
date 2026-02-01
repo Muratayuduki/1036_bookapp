@@ -6,7 +6,7 @@
 <title>新規ユーザー登録</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="user-register-page">
 <div class="container">
     <h1>新規ユーザー登録</h1>
     <p class="error">${error}</p>

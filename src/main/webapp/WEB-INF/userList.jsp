@@ -7,7 +7,7 @@
 <title>ユーザー一覧</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="user-list-page">
 <div class="container">
     <h1>ユーザー一覧</h1>
     <div class="nav">

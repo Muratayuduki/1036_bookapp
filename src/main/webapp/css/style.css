@@ -1,4 +1,25 @@
 body { font-family: sans-serif; margin: 20px; background-color: #f4f4f4; }
+
+body.login-page,
+body.user-register-page,
+body.user-list-page {
+    background-image: url(../images/book_login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body.book-list-page,
+body.book-register-page,
+body.index-page {
+    background-image: url(../images/book_list.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); max-width: 600px; margin: auto; }
 h1 { color: #333; }
 .error { color: red; margin-bottom: 10px; }

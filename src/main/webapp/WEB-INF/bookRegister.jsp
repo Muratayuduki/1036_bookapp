@@ -6,7 +6,7 @@
 <title>本の登録</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="book-register-page">
 <div class="container">
     <h1>新しいおすすめ本を登録</h1>
     <p class="error">${error}</p>
